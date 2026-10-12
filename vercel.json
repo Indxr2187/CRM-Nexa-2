@@ -1,8 +1,14 @@
 {
-  "version": 2,
-  "functions": {
-    "index.py": {
-      "excludeFiles": "{tests/**,Project 1/**,worktmp/**,.venv/**,instance/**,**/*.db}"
+  "builds": [
+    {
+      "src": "index.py",
+      "use": "@vercel/python"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.py"
+    }
+  ]
 }
