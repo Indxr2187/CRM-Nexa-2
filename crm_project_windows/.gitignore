@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+instance/
+*.db
+.DS_Store
+coverage/
+.pytest_cache/
+.vercel/
+.env.local
+.env.*.local
+worktmp/
+Project 1/

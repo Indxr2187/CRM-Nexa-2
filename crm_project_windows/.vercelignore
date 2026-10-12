@@ -1,0 +1,8 @@
+.venv
+instance
+worktmp
+Project 1
+tests
+*.db
+.env
+.env.*

@@ -1,0 +1,4 @@
+-- Seed through the ORM instead of raw SQL so password hashes are generated safely.
+-- After initializing the database, run: python -m flask --app index.py seed-demo
+-- The command creates fictional demo users and records. Initial demo password:
+-- ChangeMe123! (change it after first sign-in).
